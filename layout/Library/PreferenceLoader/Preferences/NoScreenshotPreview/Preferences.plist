@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>defaults</key>
+		<string>com.darwindev.no-screenshot-preview</string>
+		<key>label</key>
+		<string>No Screenshot Preview</string>
+		<key>key</key>
+		<string>enabled</string>
+		<key>default</key>
+		<false/>
+		<key>icon</key>
+		<string>icon.png</string>
+		<key>PostNotification</key>
+		<string>com.darwindev.no-screenshot-preview.defaults-changed</string>
+	</dict>
+</dict>
+</plist>

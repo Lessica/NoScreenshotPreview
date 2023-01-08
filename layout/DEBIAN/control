@@ -1,0 +1,10 @@
+Package: com.darwindev.no-screenshot-preview
+Name: No Screenshot Preview
+Version: 0.1-1
+Section: Tweaks
+Depends: firmware (>= 14.0)
+Architecture: iphoneos-arm
+Author: Darwin Dev <82flex@gmail.com>
+Maintainer: Darwin Dev <82flex@gmail.com>
+Description: Disables the screenshot preview when taking a screenshot.
+
