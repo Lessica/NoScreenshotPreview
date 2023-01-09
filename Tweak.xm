@@ -21,6 +21,15 @@ static SSScreenshotsWindowRootViewController *_rootViewController = nil;
 + (void)playScreenshotSound {
     if (!_kNSPEnabled)
         %orig;
+    else
+    {
+        static UINotificationFeedbackGenerator *generator = nil;
+        static dispatch_once_t onceToken;
+        dispatch_once(&onceToken, ^{
+            generator = [[UINotificationFeedbackGenerator alloc] init];
+        });
+        [generator notificationOccurred:UINotificationFeedbackTypeSuccess];
+    }
 }
 %end
 
